@@ -34,7 +34,7 @@ async def on_message(message):
     if message.content.startswith('$translate'):
         text = message.content[len('$translate '):].strip()
         if not text:
-            await message.channel.send('Usage: !translate <text>')
+            await message.channel.send('Usage: $translate <text>')
             return
         async with message.channel.typing():
             translation = translate_text(text)
