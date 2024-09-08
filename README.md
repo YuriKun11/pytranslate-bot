@@ -1,7 +1,6 @@
 # Discord Translator Bot
 
-- Translates English text to Japanese.
-- Uses the MyMemory translation API for translation.
+- Translates English text to Japanese using MyMemory translation API.
 
 ## Command
 
