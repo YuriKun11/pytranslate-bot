@@ -2,6 +2,8 @@
 
 - Translates English text to Japanese using MyMemory translation API.
 
+edit and run the `main.py`
+
 ## Command
 
 `$translate` (then your text goes here)
